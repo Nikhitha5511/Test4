@@ -5,18 +5,22 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
-header {
+body {
+    overflow-x: hidden; 
+  }
+header{
+    position:fixed;
     background-color: #333;
     color: white;
     padding: 10px 0;
     height: 75px;
+    width:100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-family: "Poppins", sans-serif;
-    overflow:hidden;
+    z-index: 1000;
 }
-
 .nav-logo {
     display: flex;
     align-items: center;
