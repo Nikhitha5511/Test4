@@ -1,0 +1,382 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    overflow:hidden;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    margin-left:250px;
+    
+}
+
+.nav-logo h2 a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    margin-right: 20px; 
+}
+
+.lists {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left:800px;
+}
+
+.lists li {
+    display: inline;
+    font-size: 17px;
+    margin-left: 15px;
+}
+
+.lists li:first-child {
+    margin-left: 0; 
+}
+
+.lists li a {
+    text-decoration: none;
+    color: white;
+}
+
+.lists li a:hover {
+    color: rgb(156, 144, 144);
+}
+.home .data{
+    display: flex;
+    height: 85%;
+    z-index: 3;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 80px 0 0;
+    background-color: rgba(196, 193, 193, 0.2);
+}
+.home {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background: url(https://koa.com/blog/images/family-camping-at-sunset.jpg?preset=heroimagecropped);
+    background-position: center 65%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.home .data .text {
+    font-size: 17px;
+}
+
+.home .data .text {
+    margin-bottom: 50px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+.home .data h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.home .data h1 {
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.data a {
+    font-size: 17px;
+    padding: 9px 20px;
+}
+
+.data a {
+    color: #000;
+    display: block;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin: 0 10px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    background: #fff;
+    border: 2px solid #fff;
+    transition: 0.4s ease;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+}
+section h2 {
+    font-size: 2rem;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+section  p {
+    text-align: center;
+}
+section  p {
+    text-align: center;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    line-height: 1;
+}
+section .cards {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin-top: 50px;
+    padding: 0 10px;
+    justify-content: space-between;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+section .cards .card {
+    width: calc(100% / 2 - 15px);
+    margin-bottom: 30px;
+}
+section .cards .card {
+    background: #fff;
+    padding: 40px 15px;
+    list-style: none;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.04);
+    margin-bottom: 40px;
+    width: calc(100% / 3 - 30px);
+    text-align: center;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.services .card img {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 20px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+section .cards .card {
+    background: #fff;
+    padding: 40px 15px;
+    list-style: none;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.04);
+    margin-bottom: 40px;
+    width: calc(100% / 3 - 30px);
+    text-align: center;
+}
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.cards .card p {
+    padding: 0 15px;
+    margin-top: 5px;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+} 
+.services h2 {
+    margin-bottom: 0; 
+}
+
+.services p {
+    margin-top: 5px;
+}
+.about h2 {
+    margin-bottom: 0; 
+}
+
+.about p {
+    margin-top: 5px;
+}
+
+.about .row {
+    padding: 0 10px;
+}
+.about .company-info {
+    margin-top: 30px;
+    margin-right:150px;
+}
+.about .mission-vision{
+    margin-top: 10px;
+    margin-right:180px;
+}
+div {
+    display: block;
+}
+.about .row p {
+    margin: 0;
+    text-align: left;
+    padding-left: 10px;
+    text-indent: -10px;
+    line-height: 1.5;
+}
+.about h3 {
+    margin: 30px 0 10px;
+}
+.about .row {
+    padding: 0 10px;
+}
+.about .team {
+    text-align: left;
+    width: 100%;
+    margin-left: 620px;
+    line-height: 1.5;
+}
+.about .team ul {
+    padding-left: 20px;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+ul {
+    list-style-type: disc;
+}
+.contact form button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 17px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background: #333;
+    transition: 0.2s ease;
+}
+.contact h2 {
+    margin-bottom: 0; 
+}
+
+.contact p {
+    margin-top: 5px;
+}
+.contact .row {
+    flex-direction: column;
+}
+.contact .row {
+    margin: 60px 0 90px;
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.contact-details p img {
+    margin-right: 10px;
+    max-height:20px;
+    max-width: 80px; 
+  }
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.contact-heading {
+  margin-bottom: 20px; /* Adjust margin as needed */
+}
+
+.contact .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.contact .col.information {
+  flex: 1;
+}
+
+.contact .col.information .contact-details p {
+  text-align: left;
+}
+.contact .col.form form {
+    width: 100%; 
+    margin-left: 600px;
+    margin-top: -300px;
+}
+.contact form input {
+    height: 45px;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    outline: none;
+    border: 1px solid #bfbfbf;
+}
+.contact form textarea {
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    height: 150px;
+    outline: none;
+    resize: vertical;
+    border: 1px solid #bfbfbf;
+}
+.contact .row .col:last-child {
+    margin-top: 40px;
+}
+.contact .row .col {
+    width: 100%;
+}
+.contact .row .col {
+    padding: 0 10px;
+    width: calc(100% / 2 - 50px);
+}
